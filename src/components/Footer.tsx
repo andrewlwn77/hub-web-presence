@@ -1,4 +1,5 @@
 import { Mail, Linkedin } from 'lucide-react';
+import { NavLink } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -33,24 +34,24 @@ const Footer = () => {
             <h3 className="font-semibold text-foreground mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <a href="/about" className="text-muted-foreground hover:text-primary transition-smooth">
+                <NavLink to="/about" className="text-muted-foreground hover:text-primary transition-smooth">
                   About N8NHub
-                </a>
+                </NavLink>
               </li>
               <li>
-                <a href="/services" className="text-muted-foreground hover:text-primary transition-smooth">
+                <NavLink to="/services" className="text-muted-foreground hover:text-primary transition-smooth">
                   Services
-                </a>
+                </NavLink>
               </li>
               <li>
-                <a href="/contact" className="text-muted-foreground hover:text-primary transition-smooth">
+                <NavLink to="/contact" className="text-muted-foreground hover:text-primary transition-smooth">
                   Contact
-                </a>
+                </NavLink>
               </li>
               <li>
-                <a href="/privacy" className="text-muted-foreground hover:text-primary transition-smooth">
+                <NavLink to="/privacy" className="text-muted-foreground hover:text-primary transition-smooth">
                   Privacy & Terms
-                </a>
+                </NavLink>
               </li>
             </ul>
           </div>
