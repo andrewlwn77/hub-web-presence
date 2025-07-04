@@ -9,11 +9,14 @@ const Home = () => {
       <section className="bg-gradient-hero text-primary-foreground py-20 px-4">
         <div className="max-w-6xl mx-auto text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
-            Enterprise Automation Architecture
+            N8NHub
           </h1>
+          <h2 className="text-2xl md:text-3xl font-semibold mb-6 opacity-95">
+            Enterprise Automation Architecture
+          </h2>
           <p className="text-xl md:text-2xl mb-8 opacity-90 max-w-3xl mx-auto">
-            Transforming business operations through intelligent automation solutions. 
-            20+ years of technical leadership delivering scalable enterprise systems.
+            Founded by Andrew Lewin, we help organizations build intelligent automation 
+            workflows that deliver measurable business outcomes through managed architecture.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 
@@ -45,12 +48,12 @@ const Home = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold mb-6 text-foreground">
-                Meet Andrew Lewin
+                Our Founder & Chief Architect
               </h2>
               <p className="text-lg text-muted-foreground mb-6">
-                Enterprise Automation Architect with over 20 years of technical leadership 
-                experience. Specializing in designing and implementing automation solutions 
-                that drive operational efficiency and business growth.
+                Andrew Lewin founded N8NHub with over 20 years of technical leadership 
+                experience. Our team specializes in designing and implementing automation 
+                solutions that drive operational efficiency and business growth.
               </p>
               <div className="space-y-4">
                 <div className="flex items-center">
@@ -67,7 +70,7 @@ const Home = () => {
                 </div>
               </div>
               <Button className="mt-6" asChild>
-                <a href="/about">Learn More About Andrew</a>
+                <a href="/about">Learn More About N8NHub</a>
               </Button>
             </div>
             <div className="bg-gradient-subtle p-8 rounded-lg shadow-card">
@@ -76,7 +79,7 @@ const Home = () => {
                 strategic initiatives that drive real business value."
               </blockquote>
               <cite className="block mt-4 text-sm font-semibold text-foreground">
-                — Andrew Lewin, Enterprise Automation Architect
+                — Andrew Lewin, Founder & Chief Architect, N8NHub
               </cite>
             </div>
           </div>
@@ -91,7 +94,7 @@ const Home = () => {
               Automation Services
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Comprehensive automation solutions designed to transform your business operations
+              Our team delivers comprehensive automation solutions designed to transform your business operations
             </p>
           </div>
           
@@ -154,7 +157,7 @@ const Home = () => {
             Ready to Transform Your Operations?
           </h2>
           <p className="text-lg text-muted-foreground mb-8">
-            Let's discuss how enterprise automation architecture can drive your business forward.
+            Let's discuss how our enterprise automation architecture can drive your business forward.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" asChild>

@@ -63,7 +63,7 @@ const Services = () => {
             Automation Services
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Comprehensive enterprise automation solutions designed to transform your business 
+            N8NHub delivers comprehensive enterprise automation solutions designed to transform your business 
             operations and drive sustainable growth through intelligent technology implementation.
           </p>
         </div>
@@ -136,7 +136,7 @@ const Services = () => {
         {/* Benefits Section */}
         <div className="mb-16">
           <h2 className="text-3xl font-bold mb-8 text-center text-foreground">
-            Why Choose n8nhub?
+            Why Choose N8NHub?
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <Card className="shadow-card text-center">
@@ -195,7 +195,7 @@ const Services = () => {
             Ready to Get Started?
           </h2>
           <p className="text-lg text-muted-foreground mb-6 max-w-2xl mx-auto">
-            Let's discuss your automation needs and explore how we can transform your 
+            Let's discuss your automation needs and explore how our team can transform your 
             business operations together.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -207,7 +207,7 @@ const Services = () => {
             </Button>
             <Button size="lg" variant="outline" asChild>
               <a href="mailto:andrew@n8nhub.com">
-                Email Andrew Directly
+                Contact Our Team
               </a>
             </Button>
           </div>

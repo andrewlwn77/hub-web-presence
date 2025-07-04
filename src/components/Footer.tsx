@@ -11,11 +11,11 @@ const Footer = () => {
               <div className="w-8 h-8 bg-gradient-hero rounded-lg flex items-center justify-center">
                 <span className="text-primary-foreground font-bold text-lg">N</span>
               </div>
-              <span className="font-bold text-xl text-foreground">n8nhub</span>
+              <span className="font-bold text-xl text-foreground">N8NHub</span>
             </div>
             <p className="text-muted-foreground mb-4 max-w-md">
-              Enterprise Automation Architecture solutions from Andrew Lewin. 
-              20+ years of technical leadership delivering scalable automation systems.
+              N8NHub delivers Enterprise Automation Architecture solutions. 
+              Founded by Andrew Lewin with 20+ years of technical leadership experience.
             </p>
             <div className="flex items-center space-x-4">
               <a
@@ -34,7 +34,7 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <a href="/about" className="text-muted-foreground hover:text-primary transition-smooth">
-                  About Andrew
+                  About N8NHub
                 </a>
               </li>
               <li>
@@ -59,7 +59,7 @@ const Footer = () => {
         <div className="border-t border-border pt-8 mt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-muted-foreground text-sm">
-              © {new Date().getFullYear()} n8nhub.com - Andrew Lewin. All rights reserved.
+              © {new Date().getFullYear()} N8NHub.com - Founded by Andrew Lewin. All rights reserved.
             </p>
             <p className="text-muted-foreground text-sm mt-2 md:mt-0">
               Enterprise Automation Architecture

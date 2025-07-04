@@ -9,11 +9,11 @@ const About = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
-            About Andrew Lewin
+            About N8NHub
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Enterprise Automation Architect with 20+ years of technical leadership 
-            driving digital transformation and operational excellence.
+            Founded by Andrew Lewin, N8NHub specializes in enterprise automation architecture 
+            that delivers measurable business results through managed intelligent systems.
           </p>
         </div>
 
@@ -21,15 +21,15 @@ const About = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
           <div>
             <h2 className="text-3xl font-bold mb-6 text-foreground">
-              Professional Background
+              Our Company
             </h2>
             <p className="text-lg text-muted-foreground mb-6">
-              With over two decades in technical leadership roles, Andrew has specialized 
-              in designing and implementing enterprise-scale automation solutions that 
-              transform business operations and drive sustainable growth.
+              N8NHub was founded by Andrew Lewin with over two decades of technical leadership 
+              experience. We specialize in designing and implementing enterprise-scale automation 
+              solutions that transform business operations and drive sustainable growth.
             </p>
             <p className="text-lg text-muted-foreground mb-6">
-              His expertise spans automation architecture, process optimization, and 
+              Our expertise spans automation architecture, process optimization, and 
               technical team leadership, helping organizations leverage technology to 
               achieve operational excellence and competitive advantage.
             </p>
@@ -54,13 +54,13 @@ const About = () => {
           </div>
 
           <div className="bg-gradient-subtle p-8 rounded-lg shadow-card">
-            <h3 className="text-2xl font-bold mb-4 text-foreground">Core Philosophy</h3>
+            <h3 className="text-2xl font-bold mb-4 text-foreground">Our Philosophy</h3>
             <blockquote className="text-lg italic text-muted-foreground mb-4">
               "True automation success comes from understanding both the technical possibilities 
               and the human impact. It's about creating systems that empower people to do their best work."
             </blockquote>
             <p className="text-muted-foreground">
-              This human-centered approach to automation has been the foundation of Andrew's 
+              This human-centered approach to automation has been the foundation of our 
               successful implementations across various industries and organizational scales.
             </p>
           </div>
@@ -69,7 +69,7 @@ const About = () => {
         {/* Expertise Areas */}
         <div className="mb-16">
           <h2 className="text-3xl font-bold mb-8 text-center text-foreground">
-            Areas of Expertise
+            Our Expertise
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <Card className="shadow-card hover:shadow-professional transition-smooth">
@@ -158,7 +158,7 @@ const About = () => {
             Ready to Discuss Your Automation Needs?
           </h2>
           <p className="text-lg text-muted-foreground mb-6">
-            Let's explore how enterprise automation architecture can transform your operations.
+            Let's explore how N8NHub's enterprise automation architecture can transform your operations.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" asChild>
