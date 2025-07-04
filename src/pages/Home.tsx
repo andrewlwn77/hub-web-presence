@@ -32,8 +32,8 @@ const Home = () => {
             </Button>
             <Button 
               size="lg"
-              variant="outline"
-              className="font-semibold border-primary-foreground/20 hover:bg-primary-foreground/10"
+              variant="hero"
+              className="font-semibold"
               asChild
             >
               <a href="/contact">Get In Touch</a>
