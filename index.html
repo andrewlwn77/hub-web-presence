@@ -2,21 +2,26 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>N8NHub - Enterprise Automation Architecture | Founded by Andrew Lewin</title>
-    <meta name="description" content="N8NHub delivers professional enterprise automation architecture services. Founded by Andrew Lewin with 20+ years of technical leadership delivering scalable automation solutions for business transformation." />
-    <meta name="author" content="Andrew Lewin - n8nhub" />
-
-    <meta property="og:title" content="N8NHub - Enterprise Automation Architecture" />
-    <meta property="og:description" content="N8NHub delivers professional enterprise automation architecture services. Founded by Andrew Lewin with 20+ years of technical leadership delivering scalable automation solutions." />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@n8nhub" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <title>Vite + React + TS</title>
+    
+    <!-- GitHub Pages SPA redirect fix -->
+    <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
+      // https://github.com/rafgraph/spa-github-pages
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
   </head>
-
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
