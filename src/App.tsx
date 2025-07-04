@@ -19,7 +19,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter basename="/hub-web-presence">
+      <BrowserRouter>
         <div className="min-h-screen flex flex-col">
           <Navigation />
           <main className="flex-1">
